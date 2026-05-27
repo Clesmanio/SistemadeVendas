@@ -2,7 +2,7 @@
 
 Um sistema completo de gerenciamento de vendas desenvolvido em Django, com funcionalidades para cadastro de clientes, produtos e controle de vendas.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Dashboard** com visão geral do sistema
 - **Gestão de Clientes** - cadastro e visualização
@@ -19,12 +19,12 @@ Um sistema completo de gerenciamento de vendas desenvolvido em Django, com funci
 - **Frontend**: Bootstrap 5 + Font Awesome
 - **Linguagem**: Python 3.x
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 
 - Python 3.7 ou superior
 - pip (gerenciador de pacotes Python)
 
-## 🔧 Instalação
+##  Instalação
 
 1. **Clone o repositório** (se aplicável) ou navegue até a pasta do projeto:
    ```bash
@@ -61,7 +61,7 @@ Um sistema completo de gerenciamento de vendas desenvolvido em Django, com funci
    - **Sistema principal**: http://127.0.0.1:8000/
    - **Painel admin**: http://127.0.0.1:8000/admin/
 
-## 📊 Estrutura do Banco de Dados
+##  Estrutura do Banco de Dados
 
 ### Modelos
 
@@ -76,7 +76,7 @@ Um sistema completo de gerenciamento de vendas desenvolvido em Django, com funci
 - Uma venda pode ter vários produtos através da tabela ItemVenda
 - Cada item de venda registra quantidade e valor unitário
 
-## 🎯 Como Usar
+##  Como Usar
 
 ### 1. Dashboard
 - Acesse a página inicial para ver estatísticas gerais
@@ -101,7 +101,7 @@ Um sistema completo de gerenciamento de vendas desenvolvido em Django, com funci
 - Gerencie todos os dados através do Django Admin
 - Acesse através do menu "Admin" ou diretamente em `/admin/`
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 exemplo_django/
@@ -130,7 +130,7 @@ exemplo_django/
 └── README.md              # Este arquivo
 ```
 
-## 🧪 Dados de Teste
+##  Dados de Teste
 
 O sistema inclui dados de teste pré-cadastrados:
 
@@ -139,7 +139,7 @@ O sistema inclui dados de teste pré-cadastrados:
 - **5 vendas** com diferentes combinações de produtos
 - **8 itens de venda** distribuídos entre as vendas
 
-## 🔐 Acesso ao Sistema
+##  Acesso ao Sistema
 
 ### Usuário Padrão (se não criar superusuário)
 - **URL**: http://127.0.0.1:8000/
@@ -149,13 +149,13 @@ O sistema inclui dados de teste pré-cadastrados:
 - **URL**: http://127.0.0.1:8000/admin/
 - **Funcionalidades**: Gerenciamento completo de todos os dados
 
-## 🎨 Personalização
+##  Personalização
 
 - **Templates**: Edite os arquivos HTML em `vendas/templates/vendas/`
 - **Estilos**: Modifique o CSS inline ou adicione arquivos CSS externos
 - **Funcionalidades**: Adicione novas views em `vendas/views.py`
 
-## 🚨 Solução de Problemas
+##  Solução de Problemas
 
 ### Erro de migração
 ```bash
@@ -180,7 +180,7 @@ pip install django
 
 Este projeto é de uso educacional e pode ser modificado conforme necessário.
 
-## 👨‍💻 Desenvolvimento
+##  Desenvolvimento
 
 Para contribuir com o projeto:
 
